@@ -1,0 +1,121 @@
+.btn{
+  position: relative;
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  background-color: (rgba(0, 0, 0, 0.87), 67.5%, #1e3251) padding-box,
+  radial-gradient(#A0C2EC, 35%, rgba(160, 194, 237, 0) 70%) 50% 0/80% 50% repeat-y;
+  padding: 7px 15px;
+  transition: 0.5s;
+  transition-delay: 0.8s;
+  margin-top: 20px;
+  min-width: 120px;
+}
+
+.btn:hover {
+  color: rgb(0, 220, 130);
+  letter-spacing: .1em;
+  text-shadow: 0 0 5px rgb(0, 220, 130);
+  transition-delay: 1ms;
+}
+
+.btn span {
+  position: absolute;
+  display: block;
+  background: rgb(0, 220, 130);
+  box-shadow: 0 0 5px rgb(0, 220, 130);
+}
+
+.btn span:nth-child(1) {
+  left: 0;
+  top: 0;
+  width: 50.5%;
+  height: 1.5px;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform .5s;
+}
+
+.btn:hover span:nth-child(1) {
+  transform: scaleX(1);
+  transform-origin: right;
+}
+
+.btn span:nth-child(2) {
+  right: 0;
+  top: 0;
+  width: 50.5%;
+  height: 1.5px;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform .5s;
+}
+
+.btn:hover span:nth-child(2) {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.btn span:nth-child(3) {
+  right: 0;
+  top: 0;
+  width: 1.5px;
+  height: 100%;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform .5s;
+  transition-delay: .4s;
+}
+
+.btn:hover span:nth-child(3) {
+  transform: scaleY(1);
+  transform-origin: top;
+}
+
+.btn span:nth-child(4) {
+  left: 0;
+  top: 0;
+  width: 1.5px;
+  height: 100%;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform .5s;
+  transition-delay: .4s;
+}
+
+.btn:hover span:nth-child(4) {
+  transform: scaleY(1);
+  transform-origin: top;
+}
+
+.btn span:nth-child(5) {
+  left: 0;
+  bottom: 0;
+  width: 50.5%;
+  height: 1.5px;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform .5s;
+  transition-delay: .8s;
+}
+
+.btn:hover span:nth-child(5) {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.btn span:nth-child(6) {
+  right: 0;
+  bottom: 0;
+  width: 50.5%;
+  height: 1.5px;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform .5s;
+  transition-delay: .8s;
+}
+
+.btn:hover span:nth-child(6) {
+  transform: scaleX(1);
+  transform-origin: right;
+}

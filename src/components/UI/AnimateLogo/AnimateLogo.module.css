@@ -1,0 +1,40 @@
+.text {
+  flex-grow: 1;
+  position: relative;
+  font-size: 3em;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  font-weight: 500;
+  filter: drop-shadow(0 0 25px #00dc82);
+  transition: color 0.3s;
+}
+
+@media (max-width: 600px) {
+  .text {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .text {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .text {
+    font-size: 3.5rem;
+  }
+}
+
+.text span {
+  color: white;
+  transition: 0.25s;
+}
+
+.text:hover span {
+  color: #00dc82;
+  text-shadow: 0 0 5px #00dc82,
+  0 0 15px #00dc82,
+  0 0 30px #00dc82;
+}

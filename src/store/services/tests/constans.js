@@ -1,0 +1,1 @@
+export const modulName = 'tests';
