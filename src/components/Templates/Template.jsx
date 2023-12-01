@@ -6,11 +6,9 @@ import {
   Item,
   MainGrid,
   MainWrapp,
-  // SideBarGrid,
 } from '../../styled';
 import Footer from '../Footer/Footer';
 import { StyledMainGrid } from './styled';
-// import NavListSideBar from '../NavListSideBar/NavListSideBar';
 import ProminentAppBar from '../Header/Header';
 
 function Template() {
@@ -19,8 +17,6 @@ function Template() {
       <HeaderGrid item lg={12} md={12} sm={12} xs={12}>
         <ProminentAppBar />
       </HeaderGrid>
-      {/* <SideBarGrid item lg={2} md={2} sm={2} xs={12}>
-      </SideBarGrid> */}
         <MainGrid item lg={12} md={12} sm={12} xs={12}>
           <StyledMainGrid>
             <Item>

@@ -20,7 +20,7 @@ const CreateQuizPage = () => {
     const quizData = getValues();
     quizCardContent.post(quizData)
       .then(() => {
-        navigate('/MinistryOfSmartPlay');
+        navigate('/');
         return dispatch(thunks.fetchTests(id)); // Оновлюємо список тестів у Redux Store
       })
       .catch((error) => {

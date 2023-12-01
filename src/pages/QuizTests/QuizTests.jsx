@@ -53,7 +53,7 @@ export default function QuizTests() {
 
   const handleNavigate = (name) => {
     const params = name.replaceAll(' ', '_').toLowerCase();
-    navigate(`/MinistryOfSmartPlay/QuizTest/${params}`);
+    navigate(`/quiz-test/${params}`);
     console.log(params);
   };
 

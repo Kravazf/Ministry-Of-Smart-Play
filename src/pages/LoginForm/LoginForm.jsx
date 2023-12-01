@@ -12,7 +12,7 @@ const LoginForm = () => {
   const { control, handleSubmit } = useForm();
 
   const onSubmit = () => {
-    navigate('/MinistryOfSmartPlay');
+    navigate('/');
   };
 
   return (

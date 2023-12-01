@@ -42,7 +42,7 @@ export const NavList = styled('div')`
 
 export const StyledDrawer = styled(Drawer)`
   .MuiDrawer-paper {
-    width: 30vw;
+    width: 37vw;
     align-items: center;
     position: relative;
     padding-top: 40px;

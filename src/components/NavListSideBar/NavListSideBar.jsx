@@ -22,22 +22,22 @@ const navigationLinks = [
   {
     id: 'Home',
     name: 'Home',
-    href: '/MinistryOfSmartPlay',
+    href: '/',
   },
   {
     id: 'Add quiz',
     name: 'Add quiz',
-    href: '/MinistryOfSmartPlay/create',
+    href: '/create',
   },
   {
     id: 'Favorite',
     name: 'Favorite',
-    href: '/MinistryOfSmartPlay/favorite',
+    href: '/favorite',
   },
   {
     id: 'LinkedInIcon',
     name: <LinkedInIcon fontSize='large' />,
-    href: 'https://www.linkedin.com/in/kravazf/',
+    href: 'https://www.linkedin.com/in/kravazf',
   },
   {
     id: 'GitHubIcon',

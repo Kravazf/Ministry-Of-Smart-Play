@@ -16,6 +16,11 @@ export const FooterWrapp = styled('div')(() => ({
     color: '#00dc82',
     filter: 'drop-shadow(0 0 25px #00dc82)',
   },
+
+  '@media (max-width: 481px)': {
+    flexDirection: 'column-reverse',
+    justifyContent: 'center',
+  },
 }));
 
 export const FooterNavigation = styled('div')(() => ({
