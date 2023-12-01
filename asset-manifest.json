@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Ministry-Of-Smart-Play/static/css/main.96e1192c.css",
-    "main.js": "/Ministry-Of-Smart-Play/static/js/main.ebd09c18.js",
+    "main.js": "/Ministry-Of-Smart-Play/static/js/main.1c1766b8.js",
     "static/js/787.375f1806.chunk.js": "/Ministry-Of-Smart-Play/static/js/787.375f1806.chunk.js",
     "index.html": "/Ministry-Of-Smart-Play/index.html",
     "main.96e1192c.css.map": "/Ministry-Of-Smart-Play/static/css/main.96e1192c.css.map",
-    "main.ebd09c18.js.map": "/Ministry-Of-Smart-Play/static/js/main.ebd09c18.js.map",
+    "main.1c1766b8.js.map": "/Ministry-Of-Smart-Play/static/js/main.1c1766b8.js.map",
     "787.375f1806.chunk.js.map": "/Ministry-Of-Smart-Play/static/js/787.375f1806.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.96e1192c.css",
-    "static/js/main.ebd09c18.js"
+    "static/js/main.1c1766b8.js"
   ]
 }
